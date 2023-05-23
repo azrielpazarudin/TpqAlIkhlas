@@ -1,0 +1,55 @@
+E:\VB\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\bin\Debug\TpqAl-Ikhlas.exe.config
+E:\VB\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\bin\Debug\TpqAl-Ikhlas.exe
+E:\VB\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\bin\Debug\TpqAl-Ikhlas.pdb
+E:\VB\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\bin\Debug\TpqAl-Ikhlas.xml
+E:\VB\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\WindowsApplication1.Resources.resources
+E:\VB\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\TpqAl-Ikhlas.vbproj.GenerateResource.Cache
+E:\VB\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\TpqAl-Ikhlas.exe
+E:\VB\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\TpqAl-Ikhlas.xml
+E:\VB\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\TpqAl-Ikhlas.pdb
+E:\VB\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\WindowsApplication1.Login.resources
+E:\VB\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\WindowsApplication1.Home.resources
+E:\VB\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\WindowsApplication1.Data_Santri.resources
+E:\VB\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\WindowsApplication1.Data_Pengajar.resources
+E:\VB\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\WindowsApplication1.Data_Kelas.resources
+E:\VB\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\WindowsApplication1.Jadwal_Pelajaran.resources
+E:\VB\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\WindowsApplication1.Kegiatan_Belajar.resources
+D:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\bin\Debug\TpqAl-Ikhlas.exe.config
+D:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\TpqAl-Ikhlas.exe
+D:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\TpqAl-Ikhlas.xml
+D:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\TpqAl-Ikhlas.pdb
+D:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\bin\Debug\TpqAl-Ikhlas.exe
+D:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\bin\Debug\TpqAl-Ikhlas.pdb
+D:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\bin\Debug\TpqAl-Ikhlas.xml
+D:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\WindowsApplication1.Data_Kelas.resources
+D:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\WindowsApplication1.Home.resources
+D:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\WindowsApplication1.Login.resources
+D:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\WindowsApplication1.Resources.resources
+D:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\TpqAl-Ikhlas.vbproj.GenerateResource.Cache
+D:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\WindowsApplication1.Data Pengajar.resources
+D:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\WindowsApplication1.Data Santri.resources
+D:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\WindowsApplication1.Jadwal Pelajaran.resources
+D:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\WindowsApplication1.Kegiatan Belajar.resources
+D:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\WindowsApplication1.Data_Pengajar.resources
+D:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\WindowsApplication1.Data_santri.resources
+E:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\bin\Debug\TpqAl-Ikhlas.exe.config
+E:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\TpqAl-Ikhlas.exe
+E:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\TpqAl-Ikhlas.xml
+E:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\TpqAl-Ikhlas.pdb
+E:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\WindowsApplication1.Data_Pengajar.resources
+E:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\WindowsApplication1.Data_santri.resources
+E:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\WindowsApplication1.Home.resources
+E:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\WindowsApplication1.Jadwal_Pelajaran.resources
+E:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\WindowsApplication1.Kegiatan_Belajar.resources
+E:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\WindowsApplication1.Login.resources
+E:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\WindowsApplication1.Resources.resources
+E:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\TpqAl-Ikhlas.vbproj.GenerateResource.Cache
+E:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\bin\Debug\TpqAl-Ikhlas.exe
+E:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\bin\Debug\TpqAl-Ikhlas.pdb
+E:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\bin\Debug\TpqAl-Ikhlas.xml
+E:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\WindowsApplication1.Data_Kelas.resources
+E:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\WindowsApplication1.Kegiatan_Belajar_Santri.resources
+E:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\WindowsApplication1.informasi_akun.resources
+E:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\WindowsApplication1.Jadpel_Santri.resources
+E:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\WindowsApplication1.JadPel_admin.resources
+E:\TpqAlIkhlas\TpqAl-Ikhlas\TpqAl-Ikhlas\obj\Debug\WindowsApplication1.Mata_Pelajaran.resources

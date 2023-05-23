@@ -1,0 +1,611 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F93364BE-0F27-4971-8208-B3AE672F62DF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <AssemblyName>TpqAl-Ikhlas</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>TpqAl-Ikhlas.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>TpqAl-Ikhlas.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data Pengajar.Designer.vb">
+      <DependentUpon>Data Pengajar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Data Pengajar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Data Santri.Designer.vb">
+      <DependentUpon>Data Santri.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Data Santri.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Data Kelas.Designer.vb">
+      <DependentUpon>Data Kelas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Data Kelas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.vb">
+      <DependentUpon>Home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="informasi_akun.Designer.vb">
+      <DependentUpon>informasi_akun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="informasi_akun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jadpel Santri.Designer.vb">
+      <DependentUpon>Jadpel Santri.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Jadpel Santri.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JadPel%28admin%29.Designer.vb">
+      <DependentUpon>JadPel%28admin%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JadPel%28admin%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jadwal Pelajaran.Designer.vb">
+      <DependentUpon>Jadwal Pelajaran.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Jadwal Pelajaran.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kegiatan Belajar Pengajar.Designer.vb">
+      <DependentUpon>Kegiatan Belajar Pengajar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Kegiatan Belajar Pengajar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kegiatan Belajar Santri.Designer.vb">
+      <DependentUpon>Kegiatan Belajar Santri.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Kegiatan Belajar Santri.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mata Pelajaran.Designer.vb">
+      <DependentUpon>Mata Pelajaran.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mata Pelajaran.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="tpqAlikhlasDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tpqAlikhlasDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tpqAlikhlasDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tpqAlikhlasDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tpqAlikhlasDataSet10.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tpqAlikhlasDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tpqAlikhlasDataSet11.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tpqAlikhlasDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tpqAlikhlasDataSet12.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tpqAlikhlasDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tpqAlikhlasDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tpqAlikhlasDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tpqAlikhlasDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tpqAlikhlasDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tpqAlikhlasDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tpqAlikhlasDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tpqAlikhlasDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tpqAlikhlasDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tpqAlikhlasDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tpqAlikhlasDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tpqAlikhlasDataSet7.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tpqAlikhlasDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tpqAlikhlasDataSet8.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tpqAlikhlasDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tpqAlikhlasDataSet91.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tpqAlikhlasDataSet91.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Data Kelas.resx">
+      <DependentUpon>Data Kelas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data Pengajar.resx">
+      <DependentUpon>Data Pengajar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data Santri.resx">
+      <DependentUpon>Data Santri.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="informasi_akun.resx">
+      <DependentUpon>informasi_akun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jadpel Santri.resx">
+      <DependentUpon>Jadpel Santri.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JadPel%28admin%29.resx">
+      <DependentUpon>JadPel%28admin%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jadwal Pelajaran.resx">
+      <DependentUpon>Jadwal Pelajaran.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kegiatan Belajar Pengajar.resx">
+      <DependentUpon>Kegiatan Belajar Pengajar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kegiatan Belajar Santri.resx">
+      <DependentUpon>Kegiatan Belajar Santri.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mata Pelajaran.resx">
+      <DependentUpon>Mata Pelajaran.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="tpqAlikhlasDataSet.xsc">
+      <DependentUpon>tpqAlikhlasDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="tpqAlikhlasDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tpqAlikhlasDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tpqAlikhlasDataSet.xss">
+      <DependentUpon>tpqAlikhlasDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="tpqAlikhlasDataSet1.xsc">
+      <DependentUpon>tpqAlikhlasDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="tpqAlikhlasDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tpqAlikhlasDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tpqAlikhlasDataSet1.xss">
+      <DependentUpon>tpqAlikhlasDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="tpqAlikhlasDataSet10.xsc">
+      <DependentUpon>tpqAlikhlasDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="tpqAlikhlasDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tpqAlikhlasDataSet10.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tpqAlikhlasDataSet10.xss">
+      <DependentUpon>tpqAlikhlasDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="tpqAlikhlasDataSet11.xsc">
+      <DependentUpon>tpqAlikhlasDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="tpqAlikhlasDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tpqAlikhlasDataSet11.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tpqAlikhlasDataSet11.xss">
+      <DependentUpon>tpqAlikhlasDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="tpqAlikhlasDataSet12.xsc">
+      <DependentUpon>tpqAlikhlasDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="tpqAlikhlasDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tpqAlikhlasDataSet12.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tpqAlikhlasDataSet12.xss">
+      <DependentUpon>tpqAlikhlasDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="tpqAlikhlasDataSet2.xsc">
+      <DependentUpon>tpqAlikhlasDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="tpqAlikhlasDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tpqAlikhlasDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tpqAlikhlasDataSet2.xss">
+      <DependentUpon>tpqAlikhlasDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="tpqAlikhlasDataSet3.xsc">
+      <DependentUpon>tpqAlikhlasDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="tpqAlikhlasDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tpqAlikhlasDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tpqAlikhlasDataSet3.xss">
+      <DependentUpon>tpqAlikhlasDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="tpqAlikhlasDataSet4.xsc">
+      <DependentUpon>tpqAlikhlasDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="tpqAlikhlasDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tpqAlikhlasDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tpqAlikhlasDataSet4.xss">
+      <DependentUpon>tpqAlikhlasDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="tpqAlikhlasDataSet5.xsc">
+      <DependentUpon>tpqAlikhlasDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="tpqAlikhlasDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tpqAlikhlasDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tpqAlikhlasDataSet5.xss">
+      <DependentUpon>tpqAlikhlasDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="tpqAlikhlasDataSet6.xsc">
+      <DependentUpon>tpqAlikhlasDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="tpqAlikhlasDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tpqAlikhlasDataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tpqAlikhlasDataSet6.xss">
+      <DependentUpon>tpqAlikhlasDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="tpqAlikhlasDataSet7.xsc">
+      <DependentUpon>tpqAlikhlasDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="tpqAlikhlasDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tpqAlikhlasDataSet7.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tpqAlikhlasDataSet7.xss">
+      <DependentUpon>tpqAlikhlasDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="tpqAlikhlasDataSet8.xsc">
+      <DependentUpon>tpqAlikhlasDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="tpqAlikhlasDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tpqAlikhlasDataSet8.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tpqAlikhlasDataSet8.xss">
+      <DependentUpon>tpqAlikhlasDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="tpqAlikhlasDataSet91.xsc">
+      <DependentUpon>tpqAlikhlasDataSet91.xsd</DependentUpon>
+    </None>
+    <None Include="tpqAlikhlasDataSet91.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tpqAlikhlasDataSet91.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tpqAlikhlasDataSet91.xss">
+      <DependentUpon>tpqAlikhlasDataSet91.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinpng.com-student-icon-png-6523949.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinpng.com-student-icon-png-65239491.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinpng.com-student-icon-png-6523949 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teacher-309403_1280-removebg-preview %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teacher-309403_1280-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teacher-309403_1280-removebg-preview %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teacher-309403_1280-removebg-preview %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Teacher-02-256 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Teacher-02-256 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Teacher-02-256 %282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Teacher-02-256 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Teacher-02-256 %282%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Meeting-256 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Teacher-02-256 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Book-Open-256 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logout-WF-256 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User-Profile-256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Student-Read-02-256 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User-Profile-2561.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search-256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2022-08-15 at 23.27.55.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp_Image_2022-08-15_at_23.27.55-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp_Image_2022-08-15_at_23.27.55-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinpng.com-student-images-png-408146.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login-Door-256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-madrasah-aliyah-negeri-1-medan-madrasah-aliyah-neg-pemerintah-rotary-bintaro-bengkel-ac-mobil-am-5b7164f7e8a4d9.8318790515341580719529.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home-256 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tambah-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp_Image_2022-04-14_at_1.07.52_PM__1_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp_Image_2022-04-14_at_1.07.52_PM__1_-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0390_Blue_button_Glossy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0390_Blue_button_Glossy-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp_Image_2022-04-14_at_1.08.39_PM-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home-256 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log_off-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images__2_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Student-Read-02-256 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Teacher-02-256 %283%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinpng.com-student-icon-png-6523949 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Student-Read-02-256 %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Meeting-256 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Student-Read-02-256 %281%293.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Book-Open-256 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logout-WF-256 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-madrasah-aliyah-negeri-1-medan-madrasah-aliyah-neg-pemerintah-rotary-bintaro-bengkel-ac-mobil-am-5b7164f7e8a4d9.83187905153415807195291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Book-Open-256 %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\testimoniK2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-madrasah-aliyah-negeri-1-medan-madrasah-aliyah-neg-pemerintah-rotary-bintaro-bengkel-ac-mobil-am-5b7164f7e8a4d9.83187905153415807195292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ID-Card-256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Left-Arrow-256.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
